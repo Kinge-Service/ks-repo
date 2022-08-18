@@ -1,0 +1,64 @@
+#!/bin/bash
+#note : GIT INDIVIDUAL PROJECT
+NAMES:  KINGE HANS / TEAM3
+
+
+GIT INDIVIDUAL PROJECT :
+
+Etech consulting Devops Master class
+
+mini-project: individual
+
+1. what is git?
+A: Git is a high quality version control system which permits you track changes on a file over time.
+
+2. what do you understand by version control? 
+A: Version control is the system management that records the changes to be done on the file and also track changes on a file.
+
+3. How can you contribute to a project in github?
+
+- Create a personal fork of the project on Github.
+- Clone the fork on your local machine. ...
+- Add the original repository as a remote called upstream .
+- If you created your fork a while ago be sure to pull upstream changes into your local repository.
+- Create a new branch to work on!
+
+4. create a file called "yourname" and push to your remote repository
+
+A: Working area : --- > Creat a file with the linux touch command (touch kingeservice). 
+Check and confirm creation of the file using the command ls -a.
+Use the git command "git add" to send the file to the staging area. And use the <git status> command to check the status.
+Use the git commit -m "commit msg" to send the file "kingeservice" to the local repository.
+Finally use the command git push to send the file from the local repository to the remote repository.
+
+5. compelete the following commands by stating their use cases:
+
+- git init    ----- > This command is to initialize a new Git repo locally in your project root.
+
+- git pull   ------ > This command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+- git push  ----- > Is the command is used to upload local repository content to a remote repository. 
+
+- git add filename  ----- > This command permits to add a file from the working area to the staging area
+
+- git clone  -b <Branch name><Repository URL>   ----- > This command is use to clone a repository from remote area to the local area.
+
+- git branch ------ > command lets you create, list, rename, and delete branches.
+
+- git checkout -b  ---- > This command lets you switch between the branches in a repository.
+
+- git commit (-a  or -m) "commit msg"  ---- > The command is to commit the files from the staging area.
+
+- git switch ----- > Is the command that allows you to switch your current HEAD branch.
+
+- git config --global user.name "username"  ----- > command to setup your Git username.
+
+- git config --global user.name  ----- > command to Confirm that you have set the Git username correctly.
+
+- git config --global user.email "Useremail"  ----- > command to setup your Git email.
+
+- git fetch  ------ > git fetch is a primary command used to download contents from a remote repository. git fetch is used in conjunction with git remote , git branch , git checkout , and git reset to update a local repository to the state of a remote.
+
+- git remote -v
+- git remote add   ------- > This command is used to set up a remote server for a repository you have on your local machine.
+
